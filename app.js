@@ -2,5 +2,6 @@
 
 // making a simple result showing statement
 
-let number = 100;
-    console.log(number);
+let number = "Hello\t World";
+
+console.log(number);
