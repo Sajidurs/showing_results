@@ -1,7 +1,3 @@
+let num = 22.444444;
 
-
-// making a simple result showing statement
-
-let number = "Hello\t World";
-
-console.log(number);
+console.log(num.toFixed());
