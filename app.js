@@ -1,3 +1,5 @@
-let num = 22.444444;
+let one = 5;
+let two = null;
+let three = "5";
 
-console.log(num.toFixed());
+console.log(one+three);
