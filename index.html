@@ -14,13 +14,27 @@
 
 
    <button class="btn1">click to show or hide</button>
-    <p class="content" style="background-color: red; width: 300px; height: 300; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptatum temporibus? Earum, dolore? Minus magnam voluptatum deserunt et est ab cupiditate, dolores velit officiis temporibus rerum iste veritatis natus praesentium?</p>
-
 
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type="text/javascript">
-        
+        $(document).ready(function(){
+            $('.btn1').click(function(){
+                $('.btn1').css('background-color','green');
+            });
+
+            $('.btn1').mouseenter(function(){
+                $('.btn1').css('background-color','red');
+            });
+
+            $('.btn1').mouseleave(function(){
+                $('.btn1').css('background-color','tan');
+            });
+
+            $('.btn1').dblclick(function(){
+                $('.btn1').css('background-color','blue');
+            });
+        });
     </script>
 
 
